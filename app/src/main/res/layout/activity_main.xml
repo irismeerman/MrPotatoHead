@@ -21,16 +21,18 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/mrpotatohead"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="93dp">
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
 
         <ImageView
             android:layout_width="300dp"
             android:layout_height="300dp"
             android:id="@+id/body"
             android:src="@drawable/body"
-            android:layout_below="@+id/mrpotatohead"
-            android:layout_centerHorizontal="true" />
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp" />
     </RelativeLayout>
+
 </RelativeLayout>
