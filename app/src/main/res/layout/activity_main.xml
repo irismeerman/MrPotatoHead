@@ -18,11 +18,19 @@
         android:typeface="normal"
         android:textSize="30dp" />
 
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:id="@+id/body"
-        android:src="@drawable/body"
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@+id/mrpotatohead"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/body"
+            android:src="@drawable/body"
+            android:layout_below="@+id/mrpotatohead"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
 </RelativeLayout>
